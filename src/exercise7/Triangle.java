@@ -17,6 +17,21 @@ public class Triangle {
     }
 
     public static void printLine(int start, int end) {
-        // Implement method
+      
+            String sei="";
+            for (int i=start;i<=end;i++)
+            {
+                sei=sei+i+" ";
+                System.out.println(sei.substring(0,sei.length()-1));
+            }
+            for (int j=start;j<end;j++)
+            {
+                int V=2;
+                sei=sei.substring(0, sei.length()-V);
+                System.out.println(sei.substring(0, sei.length()-1));
+                V++;
+            }
+
+
     }
 }
